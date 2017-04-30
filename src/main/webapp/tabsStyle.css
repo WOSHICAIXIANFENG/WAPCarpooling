@@ -1,0 +1,31 @@
+/*body {
+        background-color: #e6e6e6;
+        font-family: Helvetica;
+        font-size: 17px;
+        color: #666;
+        margin: 0px;
+        padding: 0px;
+}*/
+.wrapper_tab {
+	width: 800px;
+	height: 300px;
+	margin: 0 auto;
+	background: white;
+	margin: 0 auto;
+}
+
+.container_tab {
+	min-height: 300px;
+	border-top: 1px solid gray;
+	padding: 50px;
+}
+
+#navdiv {
+	margin-bottom: 100px;
+}
+#heightTab{
+	height: 200;
+}
+#dialog { display: none; }
+#dialogRide{ display: none; }
+

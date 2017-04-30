@@ -1,0 +1,184 @@
+html {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  
+}
+body{
+	margin: 0px;
+  	padding: 0px;
+  	
+}
+#header{
+	background-color: #4B4B4B;
+	color: white;
+	border-bottom: 25px solid #F86808;
+}
+
+a { 
+  font-weight: 700;	
+  text-decoration: none;
+  height: 15px;
+  padding:  6px 5px;
+  color: #fff;
+  
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav li {
+  float: left;
+  display: block;
+  background: #4B4B4B;
+  position: relative;
+  z-index: 500;
+  margin: 0 1px;
+}
+
+.nav li a {
+  display: block;
+  padding: 6px 5px 0 5px;
+  height: 20px;
+  text-align: center;
+}
+
+#profile{
+	margin-left: 105%;
+}
+
+
+.nav ul {
+  position: absolute;
+  left: 0;
+  display: none;
+  margin: 0 0 0 -1px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav ul li {
+  float: left;
+  border-top: 1px solid #fff;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.nav ul a {
+  display: block;
+  text-align: left;
+  }
+ 
+a:hover {
+  text-decoration: none;
+  background-color: #F86808;
+}
+.nav li:hover ul{
+	display: block;
+}
+
+.container{
+	float: left;
+	margin: 55px;
+	box-sizing: border-box;
+	margin-left: 240px;
+}
+#container{
+	height: 200px;
+	overflow: auto;
+	display: inline;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	padding: 0px;
+
+}
+img{
+	height: 200px;
+	width: 450px;
+	text-align: center;
+}
+
+#navcontainer{
+	width: 70%;
+	margin: auto;
+}
+
+#body{
+	height: 400px;
+}
+
+#loginform,#signupform{
+	border-style: 2px solid #F86808;
+	background-color: #4B4B4B;
+	border-radius: 15px;
+	width: 310px;
+	height: 350px;
+	margin: 50px auto;
+	text-align: center;
+	padding: 20px;
+	
+}
+#signupform{
+	width:60%;
+}
+#formlogin{
+	height: inherit;
+	margin-top: 30px;
+}
+
+#formlogin label{
+	float: right;
+	padding: 20px;
+}
+
+#formsignup{
+	height: inherit;
+	margin-top: 25px;
+}
+
+.box{
+float: left;
+padding: 20px;
+}
+
+#signupbtn{
+	display:block;
+}
+.box p label{
+ float: right;
+ margin-bottom: 40px;
+}
+
+input[type='submit'], #signup{
+	color: #fff;
+	font-weight: 700;	
+	background-color: #F86808;
+	width: 75px;
+	height: 30px;
+	margin-top: 45px;
+	margin-right: 10px;
+	
+}
+
+footer a,footer{
+	color: black;
+	font-weight: normal;
+}
+footer div a:hover{
+background-color: unset;
+}
+#social-media img{
+width: 50px;
+height: 50px;
+}
+
+#social-media li{
+	list-style: none;
+	display: inline;
+}
+footer #contact{
+	float: left;
+	margin-left: 40%;
+	
+}
